@@ -1,5 +1,6 @@
 1) Only Warn and ERROR are sent to application insight by default
-2) Should include these libraries in the pom file 
+2) Should include these libraries in the pom file
+````
   		<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<java.version>1.8</java.version>
@@ -30,11 +31,10 @@
 			<artifactId>log4j-core</artifactId>
 			<version>${log4j.version}</version>
 		</dependency>
-
-
-3) Add APPLICATIONINSIGHTS_CONNECTION_STRING=The connection string and not the instrumentation key in the environment variables 
-4) If using IDE make sure you close and start the IDE every time after changing the environment properties 
-5) add appender to c:\Users\ShrinivasKamalapur\OneDrive - log4j2.xml
+````
+4) Add APPLICATIONINSIGHTS_CONNECTION_STRING=The connection string and not the instrumentation key in the environment variables 
+5) If using IDE make sure you close and start the IDE every time after changing the environment properties 
+6) add appender to c:\Users\ShrinivasKamalapur\OneDrive - log4j2.xml
   <appender name="aiAppender" type="Microsoft.ApplicationInsights.Log4NetAppender.ApplicationInsightsAppender, Microsoft.ApplicationInsights.Log4NetAppender">
     <layout type="log4net.Layout.PatternLayout">
         <conversionPattern value="%message%newline" />
