@@ -53,7 +53,12 @@
               <AppenderRef ref="aiAppender"/>
         </Root>
     </Loggers>
-Links
+
+````
+**Reference material**
+
+````
+
 https://social.msdn.microsoft.com/Forums/en-US/11acf7f3-563a-4541-b0e3-d81498ed30fb/unable-to-post-log4j2-trace-logs-to-application-insights-using-applicationinsightslogginglog4j2?forum=ApplicationInsights
 
 https://stackoverflow.com/questions/60361760/application-insights-logging-with-log4js-in-java
