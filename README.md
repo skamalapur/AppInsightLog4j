@@ -148,8 +148,7 @@ Logs -
 2023-08-20 07:14:16,664 main DEBUG Reconfiguration complete for context[name=73d16e93] at URI C:\Users\ShrinivasKamalapur\OneDrive - kyndryl\Documents\POCSource\java-logging-master\java-logging-master\log4j2\target\classes\log4j2.xml (org.apache.logging.log4j.core.LoggerContext@7dcf94f8) with optional ClassLoader: null
 2023-08-20 07:14:16,665 main DEBUG Shutdown hook enabled. Registering a new one.
 2023-08-20 07:14:16,666 main DEBUG LoggerContext[name=73d16e93, org.apache.logging.log4j.core.LoggerContext@7dcf94f8] started OK.
-2023-08-20 07:14:24.628+05:30 INFO  c.m.applicationinsights.agent - **Application Insights Java Agent 3.4.15 started successfully (PID 37196, JVM running for 9.924 s)
+2023-08-20 07:14:24.628+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.4.15 started successfully (PID 37196, JVM running for 9.924 s)
 2023-08-20 07:14:24.721+05:30 INFO  c.m.applicationinsights.agent - Java version: 1.8.0_331, vendor: Oracle Corporation, home: C:\Program Files\Java\jdk1.8.0_331\jre
-**
 07:14:25.032 [main] DEBUG com.mkyong.HelloWorld - without appinsightsjson Hello from Log4j 2 MS ARS 123 
 ````
