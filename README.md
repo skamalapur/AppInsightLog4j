@@ -35,7 +35,8 @@
 4) Add APPLICATIONINSIGHTS_CONNECTION_STRING=The connection string and not the instrumentation key in the environment variables 
 5) If using IDE make sure you close and start the IDE every time after changing the environment properties 
 6) add appender to c:\Users\ShrinivasKamalapur\OneDrive - log4j2.xml
-  <appender name="aiAppender" type="Microsoft.ApplicationInsights.Log4NetAppender.ApplicationInsightsAppender, Microsoft.ApplicationInsights.Log4NetAppender">
+  ````
+<appender name="aiAppender" type="Microsoft.ApplicationInsights.Log4NetAppender.ApplicationInsightsAppender, Microsoft.ApplicationInsights.Log4NetAppender">
     <layout type="log4net.Layout.PatternLayout">
         <conversionPattern value="%message%newline" />
     </layout>
@@ -52,6 +53,20 @@
               <AppenderRef ref="aiAppender"/>
         </Root>
     </Loggers>
+Links
+https://social.msdn.microsoft.com/Forums/en-US/11acf7f3-563a-4541-b0e3-d81498ed30fb/unable-to-post-log4j2-trace-logs-to-application-insights-using-applicationinsightslogginglog4j2?forum=ApplicationInsights
+
+https://stackoverflow.com/questions/60361760/application-insights-logging-with-log4js-in-java
+https://stackoverflow.com/questions/60361760/application-insights-logging-with-log4js-in-java
+https://stackoverflow.com/questions/60361760/application-insights-logging-with-log4js-in-java
+mkyong/java-logging
+https://github.com/mkyong/java-logging/tree/master
+https://mkyong.com/spring-boot/spring-boot-log4j-2-example/
+
+````
+
+
+
 
 
 
